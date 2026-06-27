@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Streamlit secrets — never commit your API key
+.streamlit/secrets.toml
+
+# Environment
+.env
+*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Data & notebooks
+*.ipynb_checkpoints
+data/*.csv
+data/*.xlsx
+!data/sample_*.csv
